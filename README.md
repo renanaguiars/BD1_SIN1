@@ -1,8 +1,12 @@
-Componentes:
+Turma: SI1N
 
-#### Renan
-#### Henrik
-#### Luis Felipe
+Integrantes:
+
+● Renan
+
+● Henrik 
+
+● Luis Felipe
 
 ### Descrição:
 
