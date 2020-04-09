@@ -4,7 +4,7 @@ Integrantes:
 
 ● Renan
 
-● Henrik 
+● Henrique
 
 ● Luis Felipe
 
