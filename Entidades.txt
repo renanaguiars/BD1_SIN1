@@ -1,5 +1,5 @@
-1) Clientes
-2) Carros
-3) Marca
-4) Cores 
-5) Telefones
+- Telefone
+- Cliente
+- Carro
+- Ocupação
+- Vaga
