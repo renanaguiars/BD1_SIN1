@@ -6,8 +6,6 @@ Integrantes:
 
 ● Henrique
 
-● Luis Felipe
-
 ### Descrição:
 
 Uma renomada oficina automotiva de Vila Velha têm o objetivo de implantar uma melhor organização dos dados, fidelizar os clientes, otimizar os recursos e também o tempo. Levando isso em consideração, contrataram um serviço de nossa empresa de TI para desenvolver um sistema. Sendo assim, deverá ser criado o modelo de banco de dados que conseguirá suprir as necessidades deste sistema. 
