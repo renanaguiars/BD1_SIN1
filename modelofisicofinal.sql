@@ -11,7 +11,7 @@ CREATE TABLE TELEFONE(
 	numero Integer,
 	tipo Char(1),
 	id_cliente Integer,
-	foreign key (id_cliente) references CLIENTE(idcliente)
+	foreign key(id_cliente) references CLIENTE(idcliente)
 );
 
 CREATE TABLE CARRO(
