@@ -1,5 +1,5 @@
-- Telefone
 - Cliente
+- Telefone
 - Carro
-- Ocupação
 - Vaga
+- Ocupação
