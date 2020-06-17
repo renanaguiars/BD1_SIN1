@@ -10,7 +10,7 @@ CREATE TABLE TELEFONE(
 	idtelefone Integer primary key not null,
 	numero Integer,
 	tipo Char(1),
-	id_cliente Integer,
+	id_cliente Integer not null,
 	foreign key(id_cliente) references CLIENTE(idcliente)
 );
 
@@ -19,7 +19,7 @@ CREATE TABLE CARRO(
 	placa Varchar2(9) unique not null, 
 	cor Varchar2(20) not null, 
 	marca Varchar2(25) not null,
-	id_cliente Integer,
+	id_cliente Integer not null,
 	foreign key(id_cliente) references CLIENTE(idcliente)
 );
 
@@ -33,8 +33,8 @@ CREATE TABLE OCUPACAO(
 	idocupacao Integer primary key not null,
 	dataEntrada Date not null, 
 	dataSaida Date,
-	id_carro Integer,
-	id_vaga Integer,
-	foreign key(id_carro) references CARRO(idcarro)
+	id_carro Integer not null,
+	id_vaga Integer not null,
+	foreign key(id_carro) references CARRO(idcarro),
 	foreign key(id_vaga) references VAGA(idvaga)
 ); 
