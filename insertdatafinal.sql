@@ -78,7 +78,7 @@ insert into VAGA (idvaga, numerovaga, tamanho) values(202, 302, 3.15);
 insert into VAGA (idvaga, numerovaga, tamanho) values(203, 303, 3.15);
 insert into VAGA (idvaga, numerovaga, tamanho) values(204, 304, 3.15);
 
-insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1001, TO_DATE('2020/06/13 10:12:22', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/06/16 15:26:27', 'yyyy/mm/dd hh24:mi:ss'), 100, 200);
+insert into OCUPACAO (idocupacao, dataEntrada, id_carro, id_vaga) values(1001, TO_DATE('2020/06/20 10:12:22', 'yyyy/mm/dd hh24:mi:ss'), 100, 200);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1002, TO_DATE('2020/05/01 08:02:34', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/05/04 19:12:28', 'yyyy/mm/dd hh24:mi:ss'), 101, 201);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1003, TO_DATE('2020/04/04 17:32:29', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/04/08 11:09:36', 'yyyy/mm/dd hh24:mi:ss'), 102, 202);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1004, TO_DATE('2020/03/09 15:52:42', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/03/12 14:13:54', 'yyyy/mm/dd hh24:mi:ss'), 103, 203);
@@ -87,6 +87,6 @@ insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) val
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1007, TO_DATE('2020/03/01 10:39:11', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/03/04 12:24:10', 'yyyy/mm/dd hh24:mi:ss'), 106, 201);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1008, TO_DATE('2020/03/02 16:54:56', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/03/05 18:49:37', 'yyyy/mm/dd hh24:mi:ss'), 107, 202);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1009, TO_DATE('2020/03/04 18:12:37', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/03/08 16:20:11', 'yyyy/mm/dd hh24:mi:ss'), 108, 203);
-insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1010, TO_DATE('2020/04/22 10:10:57', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/04/25 11:02:00', 'yyyy/mm/dd hh24:mi:ss'), 109, 204);
+insert into OCUPACAO (idocupacao, dataEntrada, id_carro, id_vaga) values(1010, TO_DATE('2020/06/18 10:10:57', 'yyyy/mm/dd hh24:mi:ss'), 109, 204);
 insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1011, TO_DATE('2020/05/08 09:38:31', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/05/12 07:35:12', 'yyyy/mm/dd hh24:mi:ss'), 110, 200);
-insert into OCUPACAO (idocupacao, dataEntrada, dataSaida, id_carro, id_vaga) values(1012, TO_DATE('2020/06/12 07:32:47', 'yyyy/mm/dd hh24:mi:ss'), TO_DATE('2020/06/15 10:45:25', 'yyyy/mm/dd hh24:mi:ss'), 111, 201);
+insert into OCUPACAO (idocupacao, dataEntrada, id_carro, id_vaga) values(1012, TO_DATE('2020/06/19 07:32:47', 'yyyy/mm/dd hh24:mi:ss'), 111, 201);
