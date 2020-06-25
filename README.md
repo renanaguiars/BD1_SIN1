@@ -4,7 +4,7 @@ Integrantes:
 
 ● Renan
 
-● Henrique
+● Henrique Ribeiro
 
 ### Descrição:
 
